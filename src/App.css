@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+button {
+  text-transform: uppercase;
+  outline: 0;
+  background: #00a1f1;
+  width: 100%;
+  max-width: 300px;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+h1 {
+  color: #00a1f1;
+  padding: 20px;
+  margin: 0;
+}
+
+.Home {
+  display: flex;
+  flex-direction: row;
+  background: #eeeeee;
+  justify-content: space-between;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.Home button {
+  padding: 5px;
+}
+
+.Home h2 {
+  padding: 10px;
+  margin: 0;
+}
+
+.UserContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Panel {
+  width: 300px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  margin: 20px;
+}
+
+.Panel h2 {
+  color: #00a1f1;
+  padding: 20px;
+  background: #eeeeee;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Panel h4 {
+  color: #333333;
+  padding: 5px;
+}
+
+.Modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.ModalContent {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.ModalContent form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ModalContent form label {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ModalContent .Footer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.Close:hover,
+.Close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
